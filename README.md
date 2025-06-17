@@ -11,7 +11,7 @@
 ---
 
 ### 📹 Watch the Video Tutorial
-[<img src="https://i.ibb.co/xtFLpRBk/youtube-subscribe-button-6030373-640.png" alt="youtube-subscribe-button-6030373-640" width="150">](https://www.youtube.com/watch?v=l-cLupgjQvI)  
+[<img src="https://i.ibb.co/xtFLpRBk/youtube-subscribe-button-6030373-640.png" alt="youtube-subscribe-button-6030373-640" width="150">](https://www.youtube.com/watch?v=dhnvuwFpoiE)  
 *Click the red YouTube button above to view the full tutorial!*
 
 ---
