@@ -1,0 +1,18 @@
+name: Auto Refresh Repo
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # runs every 6 hours
+  workflow_dispatch:       # allows manual trigger too
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          git config --global user.name "otterai"
+          git config --global user.email "Uncle@flash.co"
+          git commit --allow-empty -m "Auto refresh commit"
+          git push
+          
